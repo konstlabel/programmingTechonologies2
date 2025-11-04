@@ -6,6 +6,7 @@ using namespace std;
 
 namespace Menus {
 
+	// START
 	void startMenu() {
 		cout << "=== Start Menu ===" << endl;
 		cout << "1. Sign Menu"	<< endl;
@@ -13,6 +14,7 @@ namespace Menus {
 		cout << "0. Exit"		<< endl;
 	}
 
+	// SIGN
 	void signMenu() {
 		cout << "=== Sign Menu ===" << endl;
 		cout << "1. Create new" << endl;
@@ -42,6 +44,14 @@ namespace Menus {
 		cout << "0. Back" << endl;
 	}
 
+	// FILE
+	void fileMenu() {
+		cout << "=== File Menu ===" << endl;
+		cout << "1. find file" << endl;
+		cout << "0. Exit" << endl;
+	}
+
+	// VALID
 	char validChoice(char min = '0', char max = '9', void (*menu) () = startMenu) {
 		char choice;
 

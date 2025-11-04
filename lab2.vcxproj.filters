@@ -19,6 +19,12 @@
     <Filter Include="Файлы заголовков\libraries">
       <UniqueIdentifier>{be1926fc-e052-4b77-a230-2fe9d8a75ebb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Файлы заголовков\sign">
+      <UniqueIdentifier>{eb376952-2035-47e8-9d76-8c263587cdc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Pair">
+      <UniqueIdentifier>{2a172848-61ca-4ebb-8583-c61a4719768c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="lab2.cpp">
@@ -29,9 +35,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Sign.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
     <ClInclude Include="List.h">
       <Filter>Файлы заголовков\List</Filter>
     </ClInclude>
@@ -44,9 +47,6 @@
     <ClInclude Include="List.inl">
       <Filter>Файлы заголовков\List</Filter>
     </ClInclude>
-    <ClInclude Include="Zodiac.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
     <ClInclude Include="Libraries.h">
       <Filter>Файлы заголовков\libraries</Filter>
     </ClInclude>
@@ -56,5 +56,23 @@
     <ClInclude Include="SignProject.h">
       <Filter>Файлы заголовков\libraries</Filter>
     </ClInclude>
+    <ClInclude Include="Zodiac.h">
+      <Filter>Файлы заголовков\sign</Filter>
+    </ClInclude>
+    <ClInclude Include="Sign.h">
+      <Filter>Файлы заголовков\sign</Filter>
+    </ClInclude>
+    <ClInclude Include="FileProject.h">
+      <Filter>Файлы заголовков\libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Pair.h">
+      <Filter>Файлы заголовков\Pair</Filter>
+    </ClInclude>
+    <ClInclude Include="Pair.inl">
+      <Filter>Файлы заголовков\Pair</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
   </ItemGroup>
 </Project>

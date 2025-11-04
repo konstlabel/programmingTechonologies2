@@ -53,6 +53,7 @@ namespace Lists {
 	template<typename T>
 	void Element<T>::data(T* data) {
 
+		delete _data;
 		_data = data;
 	}
 

@@ -163,6 +163,9 @@ void SignProject() {
 			system("cls");
 			if (signs->isEmpty())
 				cout << "Not any record in data" << endl;
+			else if (signs->head() == signs->tail()) {
+				cout << *signs->head() << endl;
+			}
 			else {
 				choice = validChoice('0', '2', reverseMenu);
 				switch (choice) {
@@ -183,11 +186,10 @@ void SignProject() {
 						Sign* sign = signs->get(i);
 						cout << i + 1 << ". " << *sign << endl;
 					}
-
-					_getch();
 				}
 			}
 
+			_getch();
 			break;
 		}
 

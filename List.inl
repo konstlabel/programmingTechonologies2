@@ -6,7 +6,7 @@ namespace Lists {
     List<T>::List() : _size(0), _head(nullptr), _tail(nullptr) {}
 
     template<typename T>
-    List<T>::List(Element<T>* head) : size(1), _head(head), _tail(head) {
+    List<T>::List(Element<T>* head) : _size(1), _head(head), _tail(head) {
         
         while (_tail->_next != nullptr) {
             _tail = _tail->_next;

@@ -129,9 +129,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Element.h" />
+    <ClInclude Include="FileProject.h" />
     <ClInclude Include="Libraries.h" />
     <ClInclude Include="List.h" />
     <ClInclude Include="Menu.h" />
+    <ClInclude Include="Pair.h" />
     <ClInclude Include="Sign.h" />
     <ClInclude Include="SignProject.h" />
     <ClInclude Include="Zodiac.h" />
@@ -143,6 +145,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="List.inl">
+      <FileType>Document</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+    <ClInclude Include="Pair.inl">
       <FileType>Document</FileType>
     </ClInclude>
   </ItemGroup>
